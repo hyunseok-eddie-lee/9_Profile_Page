@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+    background-color: #000000;
+}
+.nav {
+    color: #fefefe;
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-left, .nav-title, .top-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-title {
+    margin-left: 20px;
+}
+.top-list {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.top-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn {
+    width: 125px;
+    height: 40px;
+    background-color: #17a2b8;
+    color: #fcfdfd;
+    box-shadow: 4px 2px 2px black;
+    border: 5px solid black;
+    font-size: 21px;
+    margin-right: 11px;
+}
+.body {
+    width: 1000px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.col, .col-2 {
+    padding: 10px 0;
+    margin: 20px;
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+
+.user-card, .black-container {
+    width: 100%;
+    background-color: white;
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.user-circle {
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    border: 2px solid #cccccc;
+    margin-left: 25px;
+}
+.user-card-header {
+    background-color: #17a2b8;
+    height: 115px;
+    padding-top: 50px;
+}
+.user-card-body {
+    margin-top: 115px;
+    margin-left: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.user-card-icon {
+    height: 15px;
+}
+.user-card-body h1,
+.user-card-body h3,
+.user-card-body p {
+    margin: 10px 0;
+}
+a {
+    color: #085394;
+}
+.black-header {
+    background-color: #333333;
+    color: #d3d3d3;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.connection-icon {
+    border-radius: 25px;
+    background-color: #cccccc;
+    color: #000;
+    font-size: 21px;
+    padding: 0 10px;
+    margin-right: 15px;
+}
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    height: 50px;
+    margin-right: 10px;
+}
+.circle-icon {
+    height: 35px;
+    margin-right: 10px;
+}
+.black-body-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.black-body-left, .black-body-right {
+    display: flex;
+    align-items: center;
+}
+.black-body {
+    padding-bottom: 10px;
+}
+.black-body span {
+    font-size: 25px;
+    padding-top: 20px;
+}
+.period {
+    color: #bcbcbc;
+}
+.black-body p {
+    font-size: 20px;
+    margin: 22px;
+}
+.black-footer {
+    border-top: 3px solid #cccccc;
+    padding: 10px 25px;
+    margin-top: 10px;
+}
